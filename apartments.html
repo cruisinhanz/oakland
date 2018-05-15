@@ -1,0 +1,20 @@
+<head>
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+
+<style type="text/css">
+</style>
+</head>
+
+<body>
+	<div id='map'></div>
+	<div id='map' style='width: 400px; height: 300px;'></div>
+
+	<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoibGF3aGFuIiwiYSI6ImNqaDZ3eDRrNTAxdHkyd3J0ZjU5Z2psMmIifQ.WSiwVZpUkuQlEUMb8WTqNg';
+	var map = new mapboxgl.Map({
+	  container: 'map', // container id
+	  style: 'mapbox://styles/lawhan/cjh6x468z04g22sloqxlqgmg1' // replace this with your style URL
+	});
+	</script>
+</body>
